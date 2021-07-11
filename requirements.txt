@@ -1,0 +1,7 @@
+Flask==0.12.2
+pillow
+python-bidi
+arabic_reshaper
+gunicorn==18.0
+Jinja2==2.11.1
+requests==2.25.1

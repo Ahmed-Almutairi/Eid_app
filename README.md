@@ -2,9 +2,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Ahmed-Almutairi/Twitter">
+  <!-- <a href="https://github.com/Ahmed-Almutairi/Twitter">
     <img src="images/logo.png" alt="Logo" width="300" height="100">
-  </a>
+  </a> -->
 
   <h3 align="center">EID APP</h3>
 </p>
@@ -47,7 +47,7 @@ A web application that provides printing Eid greetings card service where users 
     
   </p>
 
-!["Tuwaiqer Project"](images/Tuwaiqer.gif)
+!["EID APP"](card.gif)
 
 
 
@@ -68,16 +68,25 @@ A web application that provides printing Eid greetings card service where users 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/AbdulazizAlmohammadi/Twitter
+   git clone https://github.com/Ahmed-Almutairi/Eid_app
    ```
-2. Install Dotnet
+2. Install packages
 
-   https://dotnet.microsoft.com/download
-
-3. Setup your database in `appsettings.json`
-   ```JS
-   "DefaultConnection": "server={ Your Server Name}; database={ Your Database Name}; Trusted_Connection=True;"
+  ```sh
+    pip install -r requirements.txt
    ```
+  
+
+3.  Setup and run  Flask App  
+
+   ```sh
+    export FLASK_APP=app.py
+   ```
+
+   ```sh
+    flask run
+   ```
+  
 
 
 
